@@ -1,0 +1,31 @@
+{
+  "name": "config",
+  "distName": "Config Service",
+  "description": "Config Service",
+  "projectType": "services",
+  "author": {
+    "name": "Paulo Ferreira",
+    "email": "paulo.media@gmail.com"
+  },
+  "contributors": [],
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "engines": {
+    "node":  ">= 6.7.0"
+  },
+  "main": "dist/app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulomedia/Config-Service.git"
+  },
+  "scripts": {
+    "rebuild": "node ./node_modules/ci-build/index.js"
+  },
+  "dependencies": {
+    "async": "^1.4.0",
+    "request": "^2.47.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}

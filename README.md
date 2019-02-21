@@ -1,2 +1,2 @@
 # Config-Service
-API REST Config
+API REST Config Service
